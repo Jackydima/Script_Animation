@@ -1,0 +1,3 @@
+Get-Item .\*2H*| ForEach-Object { Rename-Item $_ ($_.Name -replace "2H", "Axe") }
+
+PowerShell Filename replacer!
